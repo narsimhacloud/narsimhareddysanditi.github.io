@@ -358,16 +358,17 @@
 
                 </section>
 			
-						<!-- Certifications Section -->
-<section id="two" class="wrapper style2">
+			 <!-- Certifications Section -->
+             <section id="two" class="wrapper style2">
     <div class="inner">
-
         <section>
-            <h2 class="certifications-heading">Certifications</h2>
+            <h2 style="text-align: center; margin-left: 250px;">Certifications:</h2>
+ <!-- Centering the heading -->
         </section>
 
-        <div class="content">
+        <header class="major"></header>
 
+        <div class="content">
             <div class="certification-item">
                 <h3>AWS Certified Solutions Architect – Associate</h3>
                 <ul>
@@ -375,12 +376,9 @@
                     <li>Date Earned: September 12, 2023</li>
                     <li>Expiration Date: September 12, 2026</li>
                 </ul>
-
-                <ul class="actions center">
-                    <li>
-                        <a href="https://www.credly.com/badges/97590ec8-011e-4bdc-8d9c-4bbf54037c1c/public_url"
-                           class="button scrolly">Certification</a>
-                    </li>
+                <!-- Buttons -->
+                <ul class="actions">
+                    <li><a href="https://www.credly.com/badges/97590ec8-011e-4bdc-8d9c-4bbf54037c1c/public_url" class="button scrolly">Certification</a></li>
                 </ul>
             </div>
 
@@ -401,12 +399,9 @@
                     <li>Date Earned: October 25, 2023</li>
                     <li>Expiration Date: October 25, 2026</li>
                 </ul>
-
-                <ul class="actions center">
-                    <li>
-                        <a href="https://www.credly.com/badges/4d620034-6a0e-4c49-8c40-f86294f0bc6b/public_url"
-                           class="button scrolly">Certification</a>
-                    </li>
+                <!-- Buttons -->
+                <ul class="actions">
+                    <li><a href="https://www.credly.com/badges/4d620034-6a0e-4c49-8c40-f86294f0bc6b/public_url" class="button scrolly">Certification</a></li>
                 </ul>
             </div>
 
@@ -417,54 +412,45 @@
                     <li>Date Earned: September 18, 2023</li>
                     <li>Expiration Date: September 18, 2025</li>
                 </ul>
-
-                <ul class="actions center">
-                    <li>
-                        <a href="https://www.credly.com/badges/e89a839d-b3d8-45dc-9d19-af1e250596dc/public_url"
-                           class="button scrolly">Certification</a>
-                    </li>
+                <!-- Buttons -->
+                <ul class="actions">
+                    <li><a href="https://www.credly.com/badges/e89a839d-b3d8-45dc-9d19-af1e250596dc/public_url" class="button scrolly">Certification</a></li>
                 </ul>
             </div>
-
         </div>
     </div>
 </section>
 
-
 <!-- CSS Styling -->
 <style>
     /* Sidebar width handling */
-   /* Reset unwanted spacing */
-html, body {
-    margin: 0;
-    padding: 0;
-}
+    .wrapper.style2 {
+        margin-left: 0px; /* Adjust based on the sidebar width */
+        padding-right: 0px;
+    }
 
-/* Center heading properly */
-.certifications-heading {
-    text-align: center;
+    .certifications-heading {
+    text-align: right; /* Align text to the right */
     font-size: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    padding-right: 1000px; /* Add some padding to move it away from the edge */
+    display: block;
 }
 
-/* Center each certification block */
-.certification-item {
-    text-align: center;
-    max-width: 650px;
-    margin: 0 auto 30px auto;
-}
 
-/* ✅ CENTER THE BUTTONS */
-ul.actions.center {
-    display: flex;
-    justify-content: center;
-}
+    /* Center the entire certification content */
+    .certification-item {
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
 
-/* Button spacing */
-.actions .button {
-    padding: 0 40px;
-}
-
+    .actions .button {
+        display: inline-block;
+        padding: 0px 40px;
+        text-decoration: none;
+    }
 </style>
              <!-- five -->
 					<section id="five" class="wrapper style1 fade-up" style="background-color: #7b7d0e;">
@@ -570,6 +556,7 @@ ul.actions.center {
 
 	</body>
 </html>
+
 
 
 
