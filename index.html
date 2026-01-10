@@ -98,7 +98,7 @@
 						<div class="content">
 							<div class="inner">
 								<div class="header-container">
-								<h2 class="title">Technical Skills</h2>
+								<h2 class="technical-skills-title">Technical Skills</h2>
 								<p>Proficient in a range of DevOps tools and technologies to streamline and optimize software development and deployment processes. Below is a summary of my technical stack:</p>
 								<div class="grid-container">
 									<div class="grid-item">
@@ -167,6 +167,16 @@
 						color: #333; /* Bullet point color */
 						font-size: 20px; /* Adjust size as needed */
 						line-height: 1;
+						}
+					.technical-skills-title {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						font-size: 2em;
+						margin-bottom: 10px;
+						text-decoration: underline;
+						text-underline-offset: 8px;
+						text-decoration-thickness: 2px;
 					}
 				</style>
 				
@@ -175,7 +185,7 @@
 				 
 					<section id="three" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>Work Experience</h2>
+						    <h2 class="work-experience-title">Work Experience</h2>
 							<h3><i>Cognizant / UnitedHealth Group (Payer Data Externalization)</i></h3>
 
 						<h4><i>DevOps Engineer (Oct 2024 to till Now)</i></h4>
@@ -224,6 +234,32 @@
 												font-size: 1.2em; /* Slightly smaller than h2 */
 												margin-left: 300px; /* Space between h2 and h3 */
 												color: #f3f3f7; /* Adjust color as needed */
+											}
+
+											.section-title {
+												display: flex;
+												justify-content: center;
+												align-items: center;
+												font-size: 2em;
+												margin-bottom: 10px;
+												margin-left: 0px !important; /* ✅ FORCE move left */
+											}
+
+											.section-title {
+												text-decoration: underline;
+												text-underline-offset: 8px;   /* space between text and line */
+												text-decoration-thickness: 2px;
+											}
+
+											.work-experience-title {
+												display: flex;
+												justify-content: center;
+												align-items: center;
+												font-size: 2em;
+												margin-bottom: 10px;
+												text-decoration: underline;
+												text-underline-offset: 8px;
+												text-decoration-thickness: 2px;
 											}
 										</style>
 
@@ -280,11 +316,11 @@
 
 
 								</section>
-								
-								
-								<h3>INTECH SOFTWARE SOLUTIONS PVT LTD     
+
+
+								<h3><i>Intech Software Solutions PVT LTD</i>     
 							
-									<span class="date-range">March 2018 to Dec 2021</span>
+							    <h4><i>DevOps Engineer (March 2018 to Dec 2021)</i></h4>
 	
 								</h3>
 								<section>
@@ -323,10 +359,10 @@
 								</section>
 								
 								
-								<h3>Thinking Hut IT Solutions Private Limited      	           
+								<h3><i>Thinking Hut IT Solutions Private Limited</i>   	           
 							
-									<span class="date-range"> Nov 2015 to Feb 2018</span>
-	
+								<h4><i>DevOps Engineer (Nov 2015 to Feb 2018)</i></h4>
+
 								</h3>
 								<section>
 									<h3>Responsibilities</h3>
@@ -360,15 +396,15 @@
 			
 						<!-- Certifications Section -->
 <section id="two" class="wrapper style2">
-    <div class="inner">
+    <div class="inner" style="display: flex; flex-direction: column; align-items: center;">
         <section>
-            <h2 style="text-align: center; margin-left: 250px;">Certifications:</h2>
+            <h2 class="section-title">Certifications</h2>
  <!-- Centering the heading -->
         </section>
 
         <header class="major"></header>
 
-        <div class="content">
+        <div class="content" style="width: 100%; display: flex; flex-direction: column; align-items: center; transform: translateX(100px);">
             <div class="certification-item">
                 <h3>AWS Certified Solutions Architect – Associate</h3>
                 <ul>
@@ -430,20 +466,38 @@
     }
 
     .certifications-heading {
-    text-align: right; /* Align text to the right */
-    font-size: 2em;
-    margin-bottom: 0px;
-    padding-right: 1000px; /* Add some padding to move it away from the edge */
-    display: block;
-}
+		text-align: right; /* Align text to the right */
+		font-size: 2em;
+		margin-bottom: 0px;
+		padding-right: 1000px; /* Add some padding to move it away from the edge */
+		display: block;
+	}
+
+	.section-title {
+		text-decoration: underline;
+		text-underline-offset: 8px;   /* space between text and line */
+		text-decoration-thickness: 2px;
+	}
 
 
     /* Center the entire certification content */
     .certification-item {
         text-align: center;
         max-width: 600px;
-        margin: 0 auto;
+        margin: 0 auto 30px auto;
         padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+	
+    .section-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        margin-bottom: 10px;
+        margin-left: 100px !important; /* ✅ FORCE move left */
     }
 
     .actions {
@@ -463,7 +517,7 @@
              <!-- five -->
 					<section id="five" class="wrapper style1 fade-up" style="background-color: #7b7d0e;">
 						<div class="inner">
-							<h2 style="text-align: center; margin-left: 250px;">Personal Details:</h2>
+							<h2 class="section-title">Personal Details:</h2>
 							<div class="contact-container">
 								<section>
 									<ul class="contact">
@@ -482,7 +536,21 @@
 			    html, body {
 					margin: 0;
 					padding: 0;
-				}		
+				}	
+				
+				 .section-title {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 2em;
+					margin-bottom: 10px;
+					margin-left: 0px !important; /* ✅ FORCE move left */
+				}
+				.section-title {
+					text-decoration: underline;
+					text-underline-offset: 8px;   /* space between text and line */
+					text-decoration-thickness: 2px;
+}
 				#five {
 					background-color: #7b7d0e;
 					margin-top: 0 !important;
@@ -500,7 +568,7 @@
 					<section id="four" class="wrapper style1 fade-up">
 						<div class="split style1"></div>
 						<div class="inner">
-							<h2 style="text-align: center; margin-left: 250px;">Get In Touch:</h2>
+							<h2 class="section-title">Get In Touch:</h2>
 							
 							<div class="contact-container">
 								<section>
@@ -546,8 +614,22 @@
 					text-align: center; /* Centers the contact information */
 					margin-left: 20%; /* Adjust this value to move it more to the right */
 				}
+
+				.section-title {
+					display: flex;
+					justify-content: center; /* ✅ centers text horizontally */
+					align-items: center;
+					font-size: 2em;
+					margin-bottom: 10px;
+					transform: translateX(120px); /* adjust: 10px–40px */
+				
+				}
 				
 			</style>
+		
+
+    
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -560,6 +642,9 @@
 
 	</body>
 </html>
+
+
+
 
 
 
