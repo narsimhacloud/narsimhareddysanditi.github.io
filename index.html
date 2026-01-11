@@ -25,8 +25,7 @@
 							<li><a href="#two">Certifications</a></li>
 							<li><a href="#five">personal Details</a></li>
 							<li><a href="#four">Get In Touch</a></li>
-							
-
+							<li><a href="references.html">References</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -53,7 +52,7 @@
         <!-- Left: Name, Designation, Social Links, and Description -->
         <div style="max-width: 70%;">
             <h2>NARSIMHAREDDY SANDITI</h2>
-            <h4>Platform Engineer / Kubernetes Engineer</h4>
+            <h4>DevOps Engineer / Kubernetes Engineer</h4>
 
             <!-- Social Media Icons under Name -->
             
@@ -65,14 +64,14 @@
 
     <div>
         <!-- Right: Photo -->
-        <img src="https://avatars.githubusercontent.com/u/166274054?v=4&size=64" alt="Narsimha Reddy" style="border-radius: 50%; width: 150px; height: 150px; margin-left: 15px; margin-top: 50px;">
+        <img src="https://avatars.githubusercontent.com/u/166274054?v=4" alt="Narsimha Reddy" style="border-radius: 50%; width: 150px; height: 150px; margin-left: 15px; margin-top: 50px;">
 	              
 		<ul class="icons" style="display: flex; list-style: none; padding-left: 0; margin-top: 0px; margin-left: 55px;">
 			<li style="margin-right: 15px;">
-				<a href="https://github.com/narsimhacloud" class="icon brands fa-github" style="font-size: 24px;"><span class="label">GitHub</span></a>
+				<a href="https://github.com/narsimhacloud" class="icon brands fa-github" style="font-size: 24px;" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a>
 			</li>
 			<li>
-				<a href="https://www.linkedin.com/in/narsimha-s-cloud/" class="icon brands fa-linkedin-in" style="font-size: 24px;"><span class="label">LinkedIn</span></a>
+				<a href="https://www.linkedin.com/in/narsimha-s-cloud/" class="icon brands fa-linkedin-in" style="font-size: 24px;" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a>
 			</li>
 		</ul>
     </div>
@@ -98,7 +97,7 @@
 						<div class="content">
 							<div class="inner">
 								<div class="header-container">
-								<h2 class="title">Technical Skills</h2>
+								<h2 class="technical-skills-title">Technical Skills</h2>
 								<p>Proficient in a range of DevOps tools and technologies to streamline and optimize software development and deployment processes. Below is a summary of my technical stack:</p>
 								<div class="grid-container">
 									<div class="grid-item">
@@ -167,6 +166,16 @@
 						color: #333; /* Bullet point color */
 						font-size: 20px; /* Adjust size as needed */
 						line-height: 1;
+						}
+					.technical-skills-title {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						font-size: 2em;
+						margin-bottom: 10px;
+						text-decoration: underline;
+						text-underline-offset: 8px;
+						text-decoration-thickness: 2px;
 					}
 				</style>
 				
@@ -175,8 +184,8 @@
 				 
 					<section id="three" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>Work Experience</h2>
-							<h3><i>Cognizant / UnitedHealth Group (PAYER DATA EXTERNALIZATION)</i></h3>
+						    <h2 class="work-experience-title">Work Experience</h2>
+							<h3><i>Cognizant / UnitedHealth Group (Payer Data Externalization)</i></h3>
 
 						<h4><i>DevOps Engineer (Oct 2024 to till Now)</i></h4>
 
@@ -225,11 +234,37 @@
 												margin-left: 300px; /* Space between h2 and h3 */
 												color: #f3f3f7; /* Adjust color as needed */
 											}
+
+											.section-title {
+												display: flex;
+												justify-content: center;
+												align-items: center;
+												font-size: 2em;
+												margin-bottom: 10px;
+												margin-left: 0px !important; /* ✅ FORCE move left */
+											}
+
+											.section-title {
+												text-decoration: underline;
+												text-underline-offset: 8px;   /* space between text and line */
+												text-decoration-thickness: 2px;
+											}
+
+											.work-experience-title {
+												display: flex;
+												justify-content: center;
+												align-items: center;
+												font-size: 2em;
+												margin-bottom: 10px;
+												text-decoration: underline;
+												text-underline-offset: 8px;
+												text-decoration-thickness: 2px;
+											}
 										</style>
 
 								</section>
 							
-							<h3><i>Cognizant / Western Alliance Bank  (ZELLE PAYMENTS)</i></h3>
+							<h3><i>Cognizant / Western Alliance Bank  (Zelle Payments)</i></h3>
 							<h4><i>DevOps Engineer (June 2023 to Oct 2024)</i></h4>
 
 
@@ -280,11 +315,11 @@
 
 
 								</section>
-								
-								
-								<h3>INTECH SOFTWARE SOLUTIONS PVT LTD     
+
+
+								<h3><i>Intech Software Solutions PVT LTD</i>     
 							
-									<span class="date-range">March 2018 to Dec 2021</span>
+							    <h4><i>DevOps Engineer (March 2018 to Dec 2021)</i></h4>
 	
 								</h3>
 								<section>
@@ -323,10 +358,10 @@
 								</section>
 								
 								
-								<h3>Thinking Hut IT Solutions Private Limited      	           
+								<h3><i>Thinking Hut IT Solutions Private Limited</i>   	           
 							
-									<span class="date-range"> Nov 2015 to Feb 2018</span>
-	
+								<h4><i>DevOps Engineer (Nov 2015 to Feb 2018)</i></h4>
+
 								</h3>
 								<section>
 									<h3>Responsibilities</h3>
@@ -360,15 +395,15 @@
 			
 						<!-- Certifications Section -->
 <section id="two" class="wrapper style2">
-    <div class="inner">
+    <div class="inner" style="display: flex; flex-direction: column; align-items: center;">
         <section>
-            <h2 style="text-align: center; margin-left: 250px;">Certifications:</h2>
+            <h2 class="section-title">Certifications</h2>
  <!-- Centering the heading -->
         </section>
 
         <header class="major"></header>
 
-        <div class="content">
+        <div class="content" style="width: 100%; display: flex; flex-direction: column; align-items: center; transform: translateX(100px);">
             <div class="certification-item">
                 <h3>AWS Certified Solutions Architect – Associate</h3>
                 <ul>
@@ -377,7 +412,7 @@
                     <li>Expiration Date: September 12, 2026</li>
                 </ul>
                 <!-- Buttons -->
-                <ul class="actions">
+                <ul class="actions" style="display: flex; justify-content: center; align-items: center; padding: 0; margin: 0;">
                     <li><a href="https://www.credly.com/badges/97590ec8-011e-4bdc-8d9c-4bbf54037c1c/public_url" class="button scrolly">Certification</a></li>
                 </ul>
             </div>
@@ -400,7 +435,7 @@
                     <li>Expiration Date: October 25, 2026</li>
                 </ul>
                 <!-- Buttons -->
-                <ul class="actions">
+                <ul class="actions" style="display: flex; justify-content: center; align-items: center; padding: 0; margin: 0;">
                     <li><a href="https://www.credly.com/badges/4d620034-6a0e-4c49-8c40-f86294f0bc6b/public_url" class="button scrolly">Certification</a></li>
                 </ul>
             </div>
@@ -413,7 +448,7 @@
                     <li>Expiration Date: September 18, 2025</li>
                 </ul>
                 <!-- Buttons -->
-                <ul class="actions">
+                <ul class="actions" style="display: flex; justify-content: center; align-items: center; padding: 0; margin: 0;">
                     <li><a href="https://www.credly.com/badges/e89a839d-b3d8-45dc-9d19-af1e250596dc/public_url" class="button scrolly">Certification</a></li>
                 </ul>
             </div>
@@ -430,23 +465,49 @@
     }
 
     .certifications-heading {
-    text-align: right; /* Align text to the right */
-    font-size: 2em;
-    margin-bottom: 0px;
-    padding-right: 1000px; /* Add some padding to move it away from the edge */
-    display: block;
-}
+		text-align: right; /* Align text to the right */
+		font-size: 2em;
+		margin-bottom: 0px;
+		padding-right: 1000px; /* Add some padding to move it away from the edge */
+		display: block;
+	}
+
+	.section-title {
+		text-decoration: underline;
+		text-underline-offset: 8px;   /* space between text and line */
+		text-decoration-thickness: 2px;
+	}
 
 
     /* Center the entire certification content */
     .certification-item {
         text-align: center;
         max-width: 600px;
-        margin: 0 auto;
+        margin: 0 auto 30px auto;
         padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+	
+    .section-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        margin-bottom: 10px;
+        margin-left: 100px !important; /* ✅ FORCE move left */
     }
 
+    .actions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
     .actions .button {
+		text-align: center;
         display: inline-block;
         padding: 0px 40px;
         text-decoration: none;
@@ -455,7 +516,7 @@
              <!-- five -->
 					<section id="five" class="wrapper style1 fade-up" style="background-color: #7b7d0e;">
 						<div class="inner">
-							<h2 style="text-align: center; margin-left: 250px;">Personal Details:</h2>
+							<h2 class="section-title">Personal Details:</h2>
 							<div class="contact-container">
 								<section>
 									<ul class="contact">
@@ -474,7 +535,21 @@
 			    html, body {
 					margin: 0;
 					padding: 0;
-				}		
+				}	
+				
+				 .section-title {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 2em;
+					margin-bottom: 10px;
+					margin-left: 0px !important; /* ✅ FORCE move left */
+				}
+				.section-title {
+					text-decoration: underline;
+					text-underline-offset: 8px;   /* space between text and line */
+					text-decoration-thickness: 2px;
+}
 				#five {
 					background-color: #7b7d0e;
 					margin-top: 0 !important;
@@ -492,7 +567,7 @@
 					<section id="four" class="wrapper style1 fade-up">
 						<div class="split style1"></div>
 						<div class="inner">
-							<h2 style="text-align: center; margin-left: 250px;">Get In Touch:</h2>
+							<h2 class="section-title">Get In Touch:</h2>
 							
 							<div class="contact-container">
 								<section>
@@ -520,9 +595,9 @@
 											<h3>Social</h3>
 											<ul class="icons">
 
-												<li><a href="https://github.com/narsimhacloud" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://github.com/narsimhacloud" class="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
 
-												<li><a href="https://www.linkedin.com/in/narsimha-s-cloud/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://www.linkedin.com/in/narsimha-s-cloud/" class="icon brands fa-linkedin-in" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
@@ -537,6 +612,16 @@
 				.contact-container {
 					text-align: center; /* Centers the contact information */
 					margin-left: 20%; /* Adjust this value to move it more to the right */
+				}
+
+				.section-title {
+					display: flex;
+					justify-content: center; /* ✅ centers text horizontally */
+					align-items: center;
+					font-size: 2em;
+					margin-bottom: 10px;
+					transform: translateX(120px); /* adjust: 10px–40px */
+				
 				}
 				
 			</style>
